@@ -1,5 +1,5 @@
 import { HttpClient } from "@angular/common/http";
-import { TranslateLoader } from "@ngx-translate/core";
+import { TranslateLoader } from "@ngx-translate/core/dist/@ngx-translate/core";
 import { Observable } from 'rxjs';
 export declare class TranslateHttpLoader implements TranslateLoader {
     private http;
